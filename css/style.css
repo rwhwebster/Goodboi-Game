@@ -1,0 +1,194 @@
+:root {
+  --main-bg-colour: #1b1b1b;
+  --doggo-bg-colour: #211510;
+  --doggo-h-colour: #f8b700;
+  --doggo-p-colour: #d5c8af;
+  --arena-bg-colour: #1d373d;
+  --header-p-colour: #fff;
+  --font-fam: 'Indie Flower', cursive;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--main-bg-colour);
+}
+
+.header {
+  background-color: var(--main-bg-colour);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  font-family: var(--font-fam);
+  font-size: 36px;
+  color: #A64AC9;
+  padding-bottom: 4px;
+}
+
+.header h2 {
+  font-family: var(--font-fam);
+  font-size: 30px;
+  color: #FCCD04;
+}
+
+.header p {
+  font-family: var(--font-fam);
+  font-size: 18px;
+  color: var(--header-p-colour);
+  padding-bottom: 4px;
+}
+
+.interface {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--main-bg-colour);
+}
+
+.interface a {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.interface img {
+  width: 120px;
+  height: 120px;
+}
+
+.img-avatar {
+  width: 160px !important;
+  height: 160px !important;
+}
+
+.interface div {
+  width: 220px;
+  padding: 0 10px 0 20px;
+  background-color: var(--doggo-bg-colour);
+}
+
+.interface a:hover div {
+  background-color: #3c1d3d;
+}
+
+.interface h3 {
+  font-family: var(--font-fam);
+  font-size: 22px;
+  color: var(--doggo-h-colour);
+  padding: 12px 0 4px;
+}
+
+.interface p {
+  font-family: var(--font-fam);
+  font-size: 14px;
+  color: var(--doggo-p-colour);
+  line-height: 20px;
+}
+
+.btn-prefight {
+  width: 100% !important;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.actions a {
+  width: 33.33%;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 16px;
+  font-family: var(--font-fam);
+  color: var(--main-bg-colour);
+}
+
+.actions a:nth-of-type(1) {
+  background-color: #e64747;
+}
+
+.actions a:nth-of-type(2) {
+  background-color: #e6ce47;
+}
+
+.actions a:nth-of-type(3) {
+  background-color: #6de647;
+}
+
+.actions a:hover {
+  opacity: 0.9;
+}
+
+.arena {
+  width: 100%;
+  height: 180px;
+  background-color: var(--arena-bg-colour);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35vh;
+  text-align: center;
+  font-size: 20px;
+  font-family: var(--font-fam);
+  color: #fff;
+  visibility: hidden;
+}
+
+.enemy {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--main-bg-colour);
+}
+
+.enemy a {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.enemy img {
+  width: 120px;
+  height: 120px;
+}
+
+.enemy div {
+  width: 220px;
+  padding: 0 10px 0 20px;
+  background-color: var(--doggo-bg-colour);
+}
+
+.enemy a:hover div {
+  background-color: #3c1d3d;
+}
+
+.enemy h3 {
+  font-family: var(--font-fam);
+  font-size: 22px;
+  color: var(--doggo-h-colour);
+  padding: 12px 0 4px;
+}
+
+.enemy p {
+  font-family: var(--font-fam);
+  font-size: 14px;
+  color: var(--doggo-p-colour);
+  line-height: 20px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is an example of a meta description.
+    This will often show up in search results.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Goodboi Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/game.js"></script>
+    <script src="js/doggo.js"></script>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>A heckin' good game!</h1>
+      <h2>Choose your goodboi!</h2>
+    </div>
+
+    <div class="interface">
+      <a href="#" onclick="game.setGameStart('Doge')">
+        <img src="img/doge.png" alt="Bork">
+        <div>
+          <h3>Doge</h3>
+          <p>Much hike. Very zoom. Wow.</p>
+        </div>
+      </a>
+
+      <a href="#" onclick="game.setGameStart('Corgo')">
+        <img src="img/corgo.png" alt="Bork">
+        <div>
+          <h3>Corgo</h3>
+          <p>This isn't Cheddar.  This is some common bitch!</p>
+        </div>
+      </a>
+
+      <a href="#" onclick="game.setGameStart('Much Woofer')">
+        <img src="img/much woofer.png" alt="Bork">
+        <div>
+          <h3>Much Woofer</h3>
+          <p>Many goodbois make light work.</p>
+        </div>
+      </a>
+
+      <a href="#" onclick="game.setGameStart('Golden Pupper')">
+        <img src="img/golden pupper.png" alt="Bork">
+        <div>
+          <h3>Golden Pupper</h3>
+          <p>Does an awoo.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="actions">
+
+    </div>
+
+    <div class="arena">
+      <div id="arena-player"></div>
+      <div id="arena-enemy"></div>
+    </div>
+
+    <div class="enemy">
+
+    </div>
+
+  </body>
+</html>
